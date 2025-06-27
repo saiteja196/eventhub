@@ -1,0 +1,205 @@
+/* Global Styles */
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1f1f1f !important;
+}
+
+.navbar-brand, .navbar a, .dropdown-menu a {
+    color: #ffffff !important;
+}
+
+/* Card */
+.card {
+    background-color: #1e1e1e;
+    color: white;
+    min-height: 200px;
+    padding: 25px;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+}
+
+h3 {
+    color: #1a73e8;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Form Inputs */
+input, select, textarea {
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #155ab6;
+}
+
+a.btn-secondary {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+a.btn-secondary:hover {
+    background-color: #cacaca;
+}
+
+a.btn-danger {
+    background-color: #c0392b;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+a.btn-danger:hover {
+    background-color: #e74c3c;
+}
+
+/* Container */
+.container {
+    background-color: #1e1e1e !important;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    color: #f0f0f0;
+}
+
+
+
+
+/* Link Styling */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0b53c1;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background-color: #2c2c2c;
+    border: none;
+}
+
+.dropdown-item {
+    color: #f0f0f0;
+}
+
+.dropdown-item:hover {
+    background-color: #3a3a3a;
+}
+
+/* Profile Page Specific */
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.profile-container h2 {
+    font-weight: 600;
+}
+
+.email-muted {
+    color: #aaa;
+}
+
+/* Edit Profile Page Specific */
+.edit-profile-container {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.edit-profile-container h2 {
+    font-weight: 600;
+}
+
+/* Card for Profile Updates */
+.card-body {
+    box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 2px 2px;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.result-card {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+  }
+  .result-card:hover {
+    background-color: #2c2c2c;
+  }
+  .result-type {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .btn-back {
+    background-color: #222;
+    border: 1px solid #555;
+    color: #ccc;
+  }
+  .btn-back:hover {
+    background-color: #444;
+    color: white;
+  }

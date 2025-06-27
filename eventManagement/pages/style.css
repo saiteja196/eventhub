@@ -1,0 +1,43 @@
+body {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+.container {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+.table {
+    background-color: #121212;
+    color: 2px white;
+    border: 1px solid whitesmoke;
+
+}
+.table th {
+    background-color: #222;
+    color: 1px white;
+}
+.btn-primary, .btn-success, .btn-danger {
+    border: 1px;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+.navbar {
+    background-color: #1f1f1f !important;
+}
+
+.navbar-brand, .navbar a, .dropdown-menu a {
+    color: #ffffff !important;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
